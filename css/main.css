@@ -1,0 +1,86 @@
+
+
+
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 50;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+}
+
+/* Center the login form */
+.login {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #07ee1a;
+}
+
+/* Optional: Add some styles for invalid fields or error messages */
+.error {
+    color: #ffffff; /* White text color */
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #ff0000; /* Red background color */
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+  
+
+
+
+
+
+/*    for users.php */

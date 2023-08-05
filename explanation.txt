@@ -1,0 +1,10 @@
+# connecting to mySQL Database with PHP
+
+Available Extension
+
+- mysql   
+- mysqli
+- PDO       (Object Oriented)
+
+
+#sql keywords type must be capital

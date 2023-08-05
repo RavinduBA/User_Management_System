@@ -1,0 +1,114 @@
+/* Reset some default styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.appname {
+    font-size: 24px;
+}
+
+.loggedin {
+    font-size: 18px;
+}
+
+.loggedin a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+form.userform {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 0px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 50px); /* Calculate the width to fit the available space */
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Display errors */
+.errors {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    h1 span {
+        font-size: 14px;
+    }
+
+    label {
+        width: 120px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
